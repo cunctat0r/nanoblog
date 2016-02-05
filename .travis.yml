@@ -8,9 +8,7 @@ branches:
     - master
 
 install: gem install -v 1.10.6 bundler --no-rdoc --no-ri
-install: gem install rspec --no-rdoc --no-ri
 script: bundle _1.10.6_ install
-script: bundle exec rspec spec
 
 
 notifications:
