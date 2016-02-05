@@ -11,4 +11,4 @@ script: bundle _1.10.6_ install
 
 
 notifications:
-  hipchat: 372e05a530741a261bec75377fb7c2@MovieApp
+  hipchat: 372e05a530741a261bec75377fb7c2@nanoblog
