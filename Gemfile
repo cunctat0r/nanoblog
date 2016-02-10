@@ -38,7 +38,7 @@ group :development, :test do
   gem 'sqlite3'
   gem 'rspec-rails'
   gem 'guard-rspec'
-  gem 'wdm', '>= 0.1.0' if Gem.win_platform?  
+  #gem 'wdm', '>= 0.1.0' if Gem.win_platform?  
 end
 
 group :test do
