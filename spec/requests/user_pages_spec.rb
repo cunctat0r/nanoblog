@@ -4,7 +4,9 @@ describe "User Pages" do
   subject {page}
 
   describe "profile page" do
-    let(:user) {FactoryGirl.create(:user)}
+    #let(:user) {FactoryGirl.create(:user)}
+    #user= FactoryGirl.create(:user)
+    let(:user) { User.create(id: 1, name: "Linus Torvalds", email: "linus@example.com", password: "FooBar", password_confirmation: "FooBar") }
     before {visit user_path(user)}
     
     it { should have_content(user.name) }
